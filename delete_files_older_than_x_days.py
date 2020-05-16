@@ -6,7 +6,7 @@ import os
 from datetime import datetime, timedelta
 import time
 
-dest_path = r'C:\Users\RogerWu\Downloads\Temp'
+dest_path = r'F:\temp'
 print("Today's Date: ", datetime.now())
 
 number_of_days_old = 45
