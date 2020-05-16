@@ -14,8 +14,6 @@ cutoff_date = datetime.now() - timedelta(number_of_days_old)
 
 print("Cutoff_date: ", cutoff_date)
 
-time_in_secs = time.time() - (number_of_days_old * 24 * 60 * 60)
-
 os.chdir(dest_path)
 print("Current working directory : ", os.getcwd())
 print("")
