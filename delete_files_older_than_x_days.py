@@ -9,7 +9,7 @@ print("Today's Date: ", datetime.now())
 number_of_days_old = 81
 cutoff_date = datetime.now() - timedelta(number_of_days_old)
 
-print("cutoff date: ", cutoff_date)
+print("cutoff_date: ", cutoff_date)
 
 time_in_secs = time.time() - (number_of_days_old * 24 * 60 * 60)
 
