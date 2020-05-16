@@ -9,7 +9,7 @@ import time
 dest_path = r'F:\temp'
 print("Today's Date: ", datetime.now())
 
-number_of_days_old = 45
+number_of_days_old = 45                 # set files older than this date to remove
 cutoff_date = datetime.now() - timedelta(number_of_days_old)
 
 print("Cutoff_date: ", cutoff_date)
