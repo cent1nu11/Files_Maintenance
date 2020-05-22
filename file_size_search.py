@@ -12,3 +12,4 @@ os.chdir(dest_path)
 
 for item in os.listdir():
     if os.path.isfile(item):
+        os.stat(item).st_blksize
