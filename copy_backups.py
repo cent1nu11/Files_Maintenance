@@ -14,7 +14,6 @@ log_path = r'F:\TEMP\Log'
 number_of_days_old = 45
 cutoff_date = datetime.now() - timedelta(number_of_days_old)
 
-
 # create and configure logger
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(filename = os.path.join(log_path, "CopyBackups_Log_from_DELLGX620.log"), level = logging.DEBUG, format = LOG_FORMAT)
